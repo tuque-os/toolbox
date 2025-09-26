@@ -1,0 +1,18 @@
+{
+  "copr": [
+    "alternateved/eza",
+    "atim/starship"
+  ],
+  "packages": [
+    "bat",
+    "difftastic",
+    "eza",
+    "fd-find",
+    "fish",
+    "fzf",
+    "just",
+    "ripgrep",
+    "starship",
+    "zoxide"
+  ]
+}

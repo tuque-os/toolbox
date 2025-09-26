@@ -6,7 +6,4 @@ set -ouex pipefail
 # rsync -rvK /ctx/system_files/ /
 
 # run scripts
-# TODO
-
-# clean package manager cache
-dnf5 clean all
+/ctx/build_files/packages.sh
