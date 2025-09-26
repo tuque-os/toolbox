@@ -2,11 +2,9 @@
 
 set -ouex pipefail
 
-# copy files
-# rsync -rvK /ctx/system_files/ /
-
 # run scripts
 /ctx/build_files/packages.sh
+/ctx/build_files/files.sh
 
 {
   echo "IMAGE_NAME=Tuque OS"
