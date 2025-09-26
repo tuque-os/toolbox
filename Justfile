@@ -20,4 +20,4 @@ check:
 # watch latest gh workflow run
 ci:
     gh run watch \
-    $(gh run list --commit $(git rev-parse origin/HEAD) --json databaseId --jq .[].databaseId)
+    $(gh run list --commit $(git rev-parse origin/main) --json databaseId --jq .[].databaseId)
