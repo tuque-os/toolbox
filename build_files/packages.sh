@@ -3,6 +3,7 @@
 set -ouex pipefail
 
 dnf -y update
+dnf -y group install development-tools
 
 # install jq first so we can read JSON files below
 dnf -y install jq

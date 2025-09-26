@@ -4,14 +4,24 @@
     "atim/starship"
   ],
   "packages": [
+    "ansible-lint",
+    "ansible",
     "bat",
+    "cargo",
+    "clippy",
     "difftastic",
     "eza",
     "fd-find",
     "fish",
     "fzf",
+    "golang",
+    "gopls",
     "just",
+    "opentofu",
     "ripgrep",
+    "ruff",
+    "rust-analyzer",
+    "rustfmt",
     "starship",
     "zoxide"
   ]
