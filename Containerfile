@@ -7,6 +7,10 @@ COPY / /
 
 FROM quay.io/fedora/fedora-toolbox:${FEDORA_MAJOR_VERSION}
 
+LABEL com.github.containers.toolbox="true" \
+    name="tuqueos-toolbox" \
+    maintainer="code@trytonlux.ca"
+
 ARG VERSION=""
 
 RUN --mount=type=bind,from=ctx,src=/,dst=/ctx \
