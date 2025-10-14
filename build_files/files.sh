@@ -23,7 +23,9 @@ FISH_FUNCTIONS=(
 
 # copy config from workstation
 rsync -rvK /workstation/usr/share/tuque-os /usr/share/
+cp /workstation/etc/nanorc /etc/nanorc
 
+# Fish Config
 cp "/workstation/usr/share/fish/tools/web_config/themes/Catppuccin Mocha.theme" /usr/share/fish/tools/web_config/themes/
 
 for conf in "${FISH_CONF[@]}"; do
